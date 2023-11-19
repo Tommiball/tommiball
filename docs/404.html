@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <script>
+    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+      window.location.replace('/index.html');
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="/index.html">index.html</a></p>
+</body>
+</html>
